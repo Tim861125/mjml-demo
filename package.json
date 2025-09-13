@@ -1,0 +1,19 @@
+{
+  "name": "mjml-demo",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.4",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "commander": "^14.0.1",
+    "mjml": "^4.15.3",
+    "nodemailer": "^7.0.6",
+    "open": "^10.2.0"
+  }
+}
